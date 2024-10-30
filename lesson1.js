@@ -7,7 +7,7 @@ Lesson 1:
     - Augmented Math Operations
     - String Variables
     - Operators
-    
+    */
 
 console.log('Hello World')
 
