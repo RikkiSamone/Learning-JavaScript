@@ -1,3 +1,14 @@
+/* FreeCodeCamp: Learning Javascript
+Lesson 1: 
+    - Variables: Declaring and Assigning
+    - Data Types
+    - Basic Math
+    - Increment and Decrement
+    - Augmented Math Operations
+    - String Variables
+    - Operators
+    
+
 console.log('Hello World')
 
 // Uninitialized Variables: 
