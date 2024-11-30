@@ -1,2 +1,2 @@
 # Learning-JavaScript
-Repo for side projects with JavaScript as I learn it
+Repo for lessons about JavaScript outside of class
