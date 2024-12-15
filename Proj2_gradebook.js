@@ -1,3 +1,5 @@
+/* Calculate the Average scores for the class by completing the getAverage function*/
+
 function getAverage(scores) {
   let sum = 0;
 
@@ -8,6 +10,7 @@ function getAverage(scores) {
   return sum / scores.length;
 }
 
+/* Convert student scores to  letter grade */
 function getGrade(score) {
   if (score === 100) {
     return "A++";
@@ -23,11 +26,11 @@ function getGrade(score) {
     return "F";
   }
 }
-
+/*Return true or false if student has a passing grade */
 function hasPassingGrade(score) {
   return getGrade(score) !== "F";
 }
-
+/*Send message to students about grade*/
 function studentMsg(totalScores, studentScore) {
 const average = getAverage(totalScores);
 const grade = getGrade(studentScore);
