@@ -1,5 +1,10 @@
 body {
+    display: flex;
     background-color: #0a0a23;
+    font-size: 20px;;
+
+
+    
 }
 
 #text {
@@ -9,11 +14,11 @@ body {
 }
 
 #game {
-    max-width: 500px;
-    max-height: 400px;
+    max-width: 650px;
+    max-height: 600px;
     background-color: #ffffff;
     color: #ffffff;
-    margin: 30px auto 0px;
+    margin: 280px auto 0px;
     padding: 10px;
 }
 
@@ -42,4 +47,5 @@ button {
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
+    font-size: 16px;
 }
